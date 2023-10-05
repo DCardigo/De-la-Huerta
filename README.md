@@ -3,35 +3,40 @@
 
 ## Sobre De La Huerta
 
-Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
+Existe una desconexión entre el campo y la ciudad. Consumimos productos sin saber desde dónde, cómo y por quienes se producen.
 
-*"Lifebank es un dapp basado en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valor entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).*
+Los pequeños agricultores tienen muchos retos y pocos recursos para mercadeo con los cual muchos ofrecen sus productos a través de intermediarios, que  incrementan los precios.
 
-*Lifebank es una iniciativa de EOS Costa Rica, una empresa que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Coding para el cambio organizado por la empresa líder de blockchain, Block.one ".*
 
-## Tabla de Contenidos
-Con una buena visión de la estructura de la información se puede hacer que el lector acceda a la información específica necesaria, por lo que luego dar una buena visión de la información con una Tabla de Contenidos facilitará este proceso. Por ejemplo:
-
-**Tabla de Contenidos**
-1. Introducción con GIF o imágenes
-2. Sobre el proyecto
-3. Tabla de contenidos
-4. Propósito del proyecto
-5. Tecnologías
-6. Entorno de desarrollo
-7. Estructura de archivo
-8. Contribuyendo
-9. Sobre EOS Costa Rica
 
 ## Propósito del Proyecto
 
-Describe la razón por la que se hizo esto, por ejemplo:
+Queríamos hacer algo útil y simple.
 
-*"Identificamos dos problemas principales: una escasez de donaciones de sangre y una desaceleración económica local. En medio del brote de COVID-19, los bancos de sangre necesitan donantes con urgencia. Las personas que son donantes potenciales calificados deben quedarse en casa y aislarse. A medida que las donaciones caen en picado y la demanda para los aumentos de sangre y plasma, los bancos de sangre están experimentando una escasez global pronunciada.*
+Nos gusta la buena comida.
 
-*Además, la pandemia está afectando las economías locales debido a un bloqueo generalizado. Las pequeñas empresas que dependen de la comunidad local deben pensar en formas de incentivar a los clientes a comprar tan pronto como se levanten las restricciones ".*
+Nos identificamos con ser independiente y la conexión con la  naturaleza.
 
-## Tecnologías
+Tenemos familia y pensamos en el futuro.
+
+Queremos aportar al consumo local de productos del campo y fortalecer red social.
+
+Una plataforma que permite hacer puente entre consumidores y productores locales evitando intermediarios.
+
+Para el consumidor, una manera eficiente de encontrar productos frescos y conocer más sobre las personas detrás.
+
+Para el productor, una manera de  valorizar su trabajo y conectar personas interesadas en sus productos.
+
+## Tecnologías Front y Back
+
+BUSCAR COMO PONER ICONOS
+
+
+HTML5 - CSS - JavaScript(ES6)  - Python - Flask
+Bootstrap- React - PostgreSQL - SQLAlchemy
+
+
+
 El propósito es que el usuario conozca las principales tecnologías que se necesitaban para desarrollar el proyecto, para que el usuario pudiera entender el proyecto con un nuevo tipo de vista, por ejemplo, la información que se podría dar aquí es:
 
 
@@ -41,8 +46,14 @@ El propósito es que el usuario conozca las principales tecnologías que se nece
 - Lint - ESlint
 - Styles - Material-UI Theme (customizable)
 
+## APIS y Librerías
+
+JWT - SMTP -Geopy - Leaflet
+
 
 ## Entorno de Desarrollo
+
+codespace (github)
 
 Especifique dónde se desarrolló el proyecto, en caso de que alguien más quiera hacer una contribución al progreso del proyecto, por ejemplo:
 
@@ -50,105 +61,5 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 
 [jungle.evodex.io](https://jungle.evodex.io/) se ejecuta en Jungle 3 TestNet y se crea a partir de la rama de desarrollo utilizada para el desarrollo, la integración y la prueba de nuevas funciones.
 
-### Inicio Rápido
+## Autores ✒️
 
-- Clona este repositorio usando `git clone https://github.com/YOUR_PROJECT_NAME.git`
-- Moverse al directorio apropiado: `cd <YOUR_PROJECT_NAME>`
-- Corre `yarn` para instalar dependencias. En este punto puedes correr `yarn start` para ver la aplicación de ejemplo en http://localhost:3000
-
-### Empezando
-Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
-
-#### **Pre-Requisitos**
-
-`
-yarn
-`
-
-#### **Instalación**
-
-1. Clonar el repositorio
-
-    `
-    git clone https://github.com/your_username_/Project-Name.git
-    `
-2. Instalar paquetes de yarn
-
-    `
-    yarn install
-    `
-
-    ó solo
-
-    `
-    yarn
-    `
-3. Corre el proyecto
-    
-    `
-    yarn start
-    `
-
-## Estructura de Archivo
-Esto podría ayudar al lector a comprender la organización dentro del proyecto, por ejemplo:
-
-```text title="modificar"
-/
-├── public
-│   ├── index.html
-│   └── manifest.json
-├──  src
-│   ├── api
-│   ├── components
-│   ├── config
-│   ├── containers
-│   ├── models
-│   ├── routes
-│   ├── theme
-│   ├── utils
-│   ├── App.js
-│   ├── index.js
-│   └── store.js
-├── .dockerignore
-├── .gitignore
-├── .env.example
-├── .eslintrc
-├── .prettierrc
-├── Dockerfile
-├── LICENSE
-├── README.md
-├── docker-compose.yml
-├── nginx.conf
-└── package.json
-    
-    ## Contribuyendo
-
-    Si desea hacer una contribución, siga los siguientes pasos:
-
-    1. Crear Fork del proyecto
-    2. Crea el Feature Branch (`git checkout -b feature/AmazingFeature`)
-    3. Commit a los cambios (`git commit -m '<type>(<scope>): <subject>'`)
-    4. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
-    5. Abra un Pull Request
-
-    Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
-
-    Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
-
-    ## Colaboradores
-
-    Liste las personas que trabajan en el proyecto.
-
-    ## Sobre EOS Costa Rica
-
-    <div style={{ display: "block", textAlign: "center" }}>
-        <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
-    </div>
-
-    EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
-
-    [eoscostarica.io](https://eoscostarica.io/)
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
