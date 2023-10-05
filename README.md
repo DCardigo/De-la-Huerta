@@ -1,10 +1,7 @@
-## Introducción con GIF o Imágenes
-
-Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
 ![Captura de pantalla de Life bank](/img/life-bank.webp)
 
-## Sobre el Proyecto
+## Sobre De La Huerta
 
 Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
 
