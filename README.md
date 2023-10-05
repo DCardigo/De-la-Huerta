@@ -8,7 +8,7 @@ Existe una desconexión entre el campo y la ciudad. Consumimos productos sin sab
 Los pequeños agricultores tienen muchos retos y pocos recursos para mercadeo con los cual muchos ofrecen sus productos a través de intermediarios, que  incrementan los precios.
 
 
-:1F493:
+:U+1F493:
 ## Propósito del Proyecto 🚀
 
 Queríamos hacer algo útil y simple.
