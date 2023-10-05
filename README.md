@@ -9,7 +9,7 @@ Los pequeños agricultores tienen muchos retos y pocos recursos para mercadeo co
 
 
 
-## Propósito del Proyecto
+## Propósito del Proyecto 🚀
 
 Queríamos hacer algo útil y simple.
 
@@ -27,7 +27,7 @@ Para el consumidor, una manera eficiente de encontrar productos frescos y conoce
 
 Para el productor, una manera de  valorizar su trabajo y conectar personas interesadas en sus productos.
 
-## Tecnologías Front y Back
+## Tecnologías Front y Back  🛠️
 
 BUSCAR COMO PONER ICONOS
 
@@ -46,12 +46,12 @@ El propósito es que el usuario conozca las principales tecnologías que se nece
 - Lint - ESlint
 - Styles - Material-UI Theme (customizable)
 
-## APIS y Librerías
+## APIS y Librerías 📋
 
 JWT - SMTP -Geopy - Leaflet
 
 
-## Entorno de Desarrollo
+## Entorno de Desarrollo 🔧
 
 codespace (github)
 
@@ -62,4 +62,7 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 [jungle.evodex.io](https://jungle.evodex.io/) se ejecuta en Jungle 3 TestNet y se crea a partir de la rama de desarrollo utilizada para el desarrollo, la integración y la prueba de nuevas funciones.
 
 ## Autores ✒️
+* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
 
+---
+⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
