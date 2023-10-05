@@ -1,13 +1,13 @@
 
 ![Captura de pantalla de Life bank](/img/life-bank.webp)
 
-## Sobre De La Huerta
+## Sobre De La Huerta 🥕
 
 Existe una desconexión entre el campo y la ciudad. Consumimos productos sin saber desde dónde, cómo y por quienes se producen.
 
 Los pequeños agricultores tienen muchos retos y pocos recursos para mercadeo con los cual muchos ofrecen sus productos a través de intermediarios, que  incrementan los precios.
 
-❤️
+
 ## Propósito del Proyecto 🚀
 
 Queríamos hacer algo útil y simple.
