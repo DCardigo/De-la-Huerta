@@ -1,80 +1,156 @@
-# WebApp boilerplate with React JS and Flask API
+## Introducción con GIF o Imágenes
 
-Build web applications using React.js for the front end and python/flask for your backend API.
+Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-- Documentation can be found here: https://start.4geeksacademy.com/starters/react-flask
-- Here is a video on [how to use this template](https://www.loom.com/share/f37c6838b3f1496c95111e515e83dd9b)
-- Integrated with Pipenv for package managing.
-- Fast deployment to heroku [in just a few steps here](https://start.4geeksacademy.com/backend/deploy-heroku-posgres).
-- Use of .env file.
-- SQLAlchemy integration for database abstraction.
+![Captura de pantalla de Life bank](/img/life-bank.webp)
 
-### 1) Installation:
+## Sobre el Proyecto
 
-> If you use Github Codespaces (recommended) or Gitpod this template will already come with Python, Node and the Posgres Database installed. If you are working locally make sure to install Python 3.10, Node 
+Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
 
-It is recomended to install the backend first, make sure you have Python 3.8, Pipenv and a database engine (Posgress recomended)
+*"Lifebank es un dapp basado en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valor entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).*
 
-1. Install the python packages: `$ pipenv install`
-2. Create a .env file based on the .env.example: `$ cp .env.example .env`
-3. Install your database engine and create your database, depending on your database you have to create a DATABASE_URL variable with one of the possible values, make sure you replace the valudes with your database information:
+*Lifebank es una iniciativa de EOS Costa Rica, una empresa que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Coding para el cambio organizado por la empresa líder de blockchain, Block.one ".*
 
-| Engine    | DATABASE_URL                                        |
-| --------- | --------------------------------------------------- |
-| SQLite    | sqlite:////test.db                                  |
-| MySQL     | mysql://username:password@localhost:port/example    |
-| Postgress | postgres://username:password@localhost:5432/example |
+## Tabla de Contenidos
+Con una buena visión de la estructura de la información se puede hacer que el lector acceda a la información específica necesaria, por lo que luego dar una buena visión de la información con una Tabla de Contenidos facilitará este proceso. Por ejemplo:
 
-4. Migrate the migrations: `$ pipenv run migrate` (skip if you have not made changes to the models on the `./src/api/models.py`)
-5. Run the migrations: `$ pipenv run upgrade`
-6. Run the application: `$ pipenv run start`
+**Tabla de Contenidos**
+1. Introducción con GIF o imágenes
+2. Sobre el proyecto
+3. Tabla de contenidos
+4. Propósito del proyecto
+5. Tecnologías
+6. Entorno de desarrollo
+7. Estructura de archivo
+8. Contribuyendo
+9. Sobre EOS Costa Rica
 
-> Note: Codespaces users can connect to psql by typing: `psql -h localhost -U gitpod example`
+## Propósito del Proyecto
 
-### Undo a migration
+Describe la razón por la que se hizo esto, por ejemplo:
 
-You are also able to undo a migration by running
+*"Identificamos dos problemas principales: una escasez de donaciones de sangre y una desaceleración económica local. En medio del brote de COVID-19, los bancos de sangre necesitan donantes con urgencia. Las personas que son donantes potenciales calificados deben quedarse en casa y aislarse. A medida que las donaciones caen en picado y la demanda para los aumentos de sangre y plasma, los bancos de sangre están experimentando una escasez global pronunciada.*
 
-```sh
-$ pipenv run downgrade
-```
+*Además, la pandemia está afectando las economías locales debido a un bloqueo generalizado. Las pequeñas empresas que dependen de la comunidad local deben pensar en formas de incentivar a los clientes a comprar tan pronto como se levanten las restricciones ".*
 
-### Backend Populate Table Users
+## Tecnologías
+El propósito es que el usuario conozca las principales tecnologías que se necesitaban para desarrollar el proyecto, para que el usuario pudiera entender el proyecto con un nuevo tipo de vista, por ejemplo, la información que se podría dar aquí es:
 
-To insert test users in the database execute the following command:
 
-```sh
-$ flask insert-test-users 5
-```
+- React.js - React 18✨, React Router 5
+- Rematch/core - Rematch a Redux Framework
+- Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
+- Lint - ESlint
+- Styles - Material-UI Theme (customizable)
 
-And you will see the following message:
 
-```
-  Creating test users
-  test_user1@test.com created.
-  test_user2@test.com created.
-  test_user3@test.com created.
-  test_user4@test.com created.
-  test_user5@test.com created.
-  Users created successfully!
-```
+## Entorno de Desarrollo
 
-### **Important note for the database and the data inside it**
+Especifique dónde se desarrolló el proyecto, en caso de que alguien más quiera hacer una contribución al progreso del proyecto, por ejemplo:
 
-Every Github codespace environment will have **its own database**, so if you're working with more people eveyone will have a different database and different records inside it. This data **will be lost**, so don't spend too much time manually creating records for testing, instead, you can automate adding records to your database by editing ```commands.py``` file inside ```/src/api``` folder. Edit line 32 function ```insert_test_data``` to insert the data according to your model (use the function ```insert_test_users``` above as an example). Then, all you need to do is run ```pipenv run insert-test-data```.
+[evodex.io](https://evodex.io/exchange) se ejecuta en EOS MainNet y se crea a partir de la rama maestra, nuestra rama de producción.
 
-### Front-End Manual Installation:
+[jungle.evodex.io](https://jungle.evodex.io/) se ejecuta en Jungle 3 TestNet y se crea a partir de la rama de desarrollo utilizada para el desarrollo, la integración y la prueba de nuevas funciones.
 
--   Make sure you are using node version 14+ and that you have already successfully installed and runned the backend.
+### Inicio Rápido
 
-1. Install the packages: `$ npm install`
-2. Start coding! start the webpack dev server `$ npm run start`
+- Clona este repositorio usando `git clone https://github.com/YOUR_PROJECT_NAME.git`
+- Moverse al directorio apropiado: `cd <YOUR_PROJECT_NAME>`
+- Corre `yarn` para instalar dependencias. En este punto puedes correr `yarn start` para ver la aplicación de ejemplo en http://localhost:3000
 
-## Publish your website!
+### Empezando
+Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
 
-This boilerplate it's 100% read to deploy with Render.com and Heroku in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
+#### **Pre-Requisitos**
 
-### Contributors
+`
+yarn
+`
+
+#### **Instalación**
+
+1. Clonar el repositorio
+
+    `
+    git clone https://github.com/your_username_/Project-Name.git
+    `
+2. Instalar paquetes de yarn
+
+    `
+    yarn install
+    `
+
+    ó solo
+
+    `
+    yarn
+    `
+3. Corre el proyecto
+    
+    `
+    yarn start
+    `
+
+## Estructura de Archivo
+Esto podría ayudar al lector a comprender la organización dentro del proyecto, por ejemplo:
+
+```text title="modificar"
+/
+├── public
+│   ├── index.html
+│   └── manifest.json
+├──  src
+│   ├── api
+│   ├── components
+│   ├── config
+│   ├── containers
+│   ├── models
+│   ├── routes
+│   ├── theme
+│   ├── utils
+│   ├── App.js
+│   ├── index.js
+│   └── store.js
+├── .dockerignore
+├── .gitignore
+├── .env.example
+├── .eslintrc
+├── .prettierrc
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── docker-compose.yml
+├── nginx.conf
+└── package.json
+    
+    ## Contribuyendo
+
+    Si desea hacer una contribución, siga los siguientes pasos:
+
+    1. Crear Fork del proyecto
+    2. Crea el Feature Branch (`git checkout -b feature/AmazingFeature`)
+    3. Commit a los cambios (`git commit -m '<type>(<scope>): <subject>'`)
+    4. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
+    5. Abra un Pull Request
+
+    Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
+
+    Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
+
+    ## Colaboradores
+
+    Liste las personas que trabajan en el proyecto.
+
+    ## Sobre EOS Costa Rica
+
+    <div style={{ display: "block", textAlign: "center" }}>
+        <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
+    </div>
+
+    EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
+
+    [eoscostarica.io](https://eoscostarica.io/)
 
 This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
 
