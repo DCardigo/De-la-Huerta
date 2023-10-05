@@ -65,7 +65,11 @@ Como productor tendrás la oportunidad de mostrar tu oferta a través de un perf
 - Leaflet
 
 ## Autores ✒️
-**Inti Luna Avilés**- [IntiLuna](https://github.com/intiluna)
+
+**Inti Luna Avilés** - [IntiLuna](https://github.com/intiluna)
+**Sergio Reverte** - [Reverte10](https://github.com/Reverte10)
+**Angélica Quijada** - [AngeZambrano](https://github.com/AngeZambrano)
+**Daniel Carrión Martínez** - [DCardigo](https://github.com/DCardigo)
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [DCardigo](https://github.com/DCardigo) 😊
