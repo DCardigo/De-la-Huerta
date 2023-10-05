@@ -1,7 +1,10 @@
 
-![Captura de pantalla de Life bank](/img/life-bank.webp)
+![WhatsApp Image 2023-08-29 at 16 13 38](https://github.com/DCardigo/De-la-Huerta/assets/123099651/5d52f699-845c-443f-aaf3-16d323494a52)
+
 
 ## Sobre De La Huerta 🥕
+
+
 
 Existe una desconexión entre el campo y la ciudad. Consumimos productos sin saber desde dónde, cómo y por quienes se producen.
 
