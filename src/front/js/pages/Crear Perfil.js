@@ -11,6 +11,7 @@ export const Perfil = () => {
 		nombre: "",
 		apellido: "",
 		direccion: "",
+		
 		telefono: "",
 		codigo_postal: "",
 		comunidad_autonoma: "",
